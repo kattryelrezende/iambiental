@@ -1,0 +1,95 @@
+/* CSS reset */
+@media print {
+  html, body {
+	display: none;
+  }
+}
+.noselect {
+  -webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	 -khtml-user-select: none; 
+	   -moz-user-select: none; 
+		-ms-user-select: none; 
+			user-select: none; 
+}
+
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.nav-link{
+	color: #2b6f9f!important;
+}
+
+.nav-link.active, .legend{
+	background-color: #2b6f9f!important;
+	color: #fff!important;
+}
+
+h3{
+	color: #2b6f9f;
+}
+
+input:focus {
+	border-color: #2f70bf;
+}
+
+body{
+  margin:10px;
+  color: #505050;
+}
+
+p{
+  margin-bottom:15px;
+}
+p:first-child{
+  margin: 0px;
+}
+label{
+  font-size: 12px;
+  font-weight: bold;
+  color: #405c60;
+  position: relative;
+}
+
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+} 
+input,select {
+  outline: none;
+}
+
+select {
+  padding-left: 10px;  
+  padding-right: 10px;  
+}
+
+.btn-custom {
+	border: 1px solid #b2b2b2;
+	border-color: #b2b2b2;
+}
